@@ -1,2 +1,1 @@
-# ValidateConfigurationSettings
-Validate Configuration Settings in .NET
+# alidate Configuration Settings / Options in .NET
