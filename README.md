@@ -1,1 +1,1 @@
-# Validate Configuration Settings / Options in .NET
+# Validate Configuration Settings / Options Fluently in .NET
