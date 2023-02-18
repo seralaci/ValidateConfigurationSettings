@@ -7,7 +7,8 @@ var config = builder.Configuration;
 builder.Services
     .AddOptions<ExampleOptions>()
     .Bind(config.GetSection(ExampleOptions.SectionName))
-    .Validate(x => x.Retries is > 0 and <= 10)
+    //.Validate(x => x.Retries is > 0 and <= 10)
+    .ValidateDataAnnotations()
     .ValidateOnStart();
 
 var app = builder.Build();
